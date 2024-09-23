@@ -139,6 +139,14 @@ body {
   position: relative;
 }
 
+.header-img {
+  transition: transform 0.3s ease;
+}
+
+.header-img:hover {
+  transform: scale(1.15);
+}
+
 .header-skill::before {
   content: "";
   position: absolute;
