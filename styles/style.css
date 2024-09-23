@@ -241,6 +241,33 @@ body {
   padding-top: 10rem;
 }
 
+.contact-section .contact-map {
+  color: var(--light-color);
+}
+
+.contact-section .contact-map:hover,
+.contact-section .contact-map.active {
+  color: var(--primary-color);
+}
+
+.contact-section .contact-phone {
+  color: var(--light-color);
+}
+
+.contact-section .contact-phone:hover,
+.contact-section .contact-phone.active {
+  color: var(--primary-color);
+}
+
+.contact-section .contact-email {
+  color: var(--light-color);
+}
+
+.contact-section .contact-email:hover,
+.contact-section .contact-email.active {
+  color: var(--primary-color);
+}
+
 .contact-section .contact-instagram {
   color: var(--light-color);
 }
