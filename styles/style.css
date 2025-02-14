@@ -219,19 +219,19 @@ body {
 }
 
 /* BLOG */
-.blog-section .card .card-img-top {
+.project-section .card .card-img-top {
   height: 320px;
   width: 100%;
   object-fit: cover;
 }
 
 @media screen and (max-width: 768px) {
-  .blog-section .card .card-img-top {
+  .project-section .card .card-img-top {
     height: 100px;
   }
 }
 
-.blog-section {
+.project-section {
   padding-top: 10rem;
   padding-bottom: 0;
 }
@@ -278,19 +278,19 @@ body {
 }
 
 /* FOOTER */
-footer {
-  padding-top: 0;
-  padding-bottom: 2rem;
-  background-color: var(--gray-color);
-  text-align: center;
-}
+  footer {
+    padding-top: 0;
+    padding-bottom: 2rem;
+    background-color: var(--gray-color);
+    text-align: center;
+  }
 
-footer a {
-  color: dark var(--light-color);
-}
+  footer a {
+    color: dark var(--light-color);
+  }
 
-footer a:hover {
-  color: var(--primary-color);
-}
+  footer a:hover {
+    color: var(--primary-color);
+  }
 
 /* RESPONSIVE */
